@@ -10,6 +10,7 @@
 "使用pathogen插件来管理插件
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
+"call pathogen#helptags()
 
 
 filetype indent plugin on "允许文件类型专属的缩进和插件,放在pathogen插件后
