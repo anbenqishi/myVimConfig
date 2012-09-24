@@ -28,3 +28,21 @@
 [submodule "bundle/vim-a"]
 	path = bundle/vim-a
 	url = git://github.com/vim-scripts/a.vim.git
+[submodule "bundle/vim-taglist"]
+	path = bundle/vim-taglist
+	url = https://github.com/anbenqishi/taglist.vim.git
+[submodule "bundle/vim-autocomplpop"]
+	path = bundle/vim-autocomplpop
+	url = http://github.com/anbenqishi/vim-autocomplpop.git
+[submodule "bundle/neocomplcache"]
+	path = bundle/neocomplcache
+	url = https://github.com/Shougo/neocomplcache.git
+[submodule "bundle/vim-minibufexpl"]
+	path = bundle/vim-minibufexpl
+	url = https://github.com/chunzi/minibufexpl.vim.git
+[submodule "bundle/vim-winmanager-Improved"]
+	path = bundle/vim-winmanager-Improved
+	url = https://github.com/anbenqishi/win-manager-Improved.git
+[submodule "bundle/wim-winmanager"]
+	path = bundle/wim-winmanager
+	url = https://github.com/zerdliu/winmanager.git
