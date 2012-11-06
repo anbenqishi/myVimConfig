@@ -49,3 +49,6 @@
 [submodule "bundle/vim-grep"]
 	path = bundle/vim-grep
 	url = https://github.com/vairix-amuhlethaler/grep_vim.git
+[submodule "bundle/vim-dwm"]
+	path = bundle/vim-dwm
+	url = git://github.com/spolu/dwm.vim.git
