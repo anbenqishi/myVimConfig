@@ -44,7 +44,7 @@ endfunction
 "使用pathogen插件来管理插件
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
-"call pathogen#helptags()
+call pathogen#helptags()
 
 
 filetype plugin indent on "允许文件类型专属的缩进和插件,放在pathogen插件后
@@ -106,8 +106,8 @@ autocmd FileType java set omnifunc=javacomplete#Complet
 "nnoremap :TlistToggle
 let Tlist_Show_One_File=1 "Only show the tag list of current file
 let Tlist_Exit_OnlyWindow=1 "If you are the last,kill yourself
-"let Tlist_Use_Right_Window=1 "Show on the right
-let Tlist_WinWidth=30        "Set the window 40 cols wide
+let Tlist_Use_Right_Window=1 "Show on the right
+let Tlist_WinWidth=30        "Set the window 30 cols wide
 
 " Neocomplcache
 let g:neocomplcache_enable_at_startup = 1 " Use neocomplcache
@@ -118,7 +118,7 @@ let g:neocomplcache_enable_smat_case = 1  " Use smartcase
        " map <leader>e :NERDTreeFind<CR>
        " nmap <leader>nt :NERDTreeFind<CR>
 		map wtt :NERDTreeToggle<CR>
-        let NERDTreeShowBookmarks=1
+        "let NERDTreeShowBookmarks=1
         let NERDTreeIgnore=['\.pyc', '\~$', '\.swo$', '\.swp$', '\.git', '\.hg', '\.svn', '\.bzr']
         let NERDTreeChDirMode=0
         "let NERDTreeQuitOnOpen=1
@@ -127,10 +127,10 @@ let g:neocomplcache_enable_smat_case = 1  " Use smartcase
 " }
 
 " MiniBufExplorer {
-	"let g:miniBufExplMapWindowNavVim = 1 
-	"let g:miniBufExplMapWindowNavArrows = 1 
-	"let g:miniBufExplMapCTabSwitchBufs = 1 
-	"let g:miniBufExplModSelTarget = 1
+	let g:miniBufExplMapWindowNavVim = 1 
+	let g:miniBufExplMapWindowNavArrows = 1 
+	let g:miniBufExplMapCTabSwitchBufs = 1 
+	let g:miniBufExplModSelTarget = 1
 " }
 " 
 " Winmanager {
