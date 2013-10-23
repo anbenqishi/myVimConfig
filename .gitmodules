@@ -13,9 +13,6 @@
 [submodule "bundle/vim-tlib"]
 	path = bundle/vim-tlib
 	url = git://github.com/tomtom/tlib_vim.git
-[submodule "bundle/vim-snipmate-snippets"]
-	path = bundle/vim-snipmate-snippets
-	url = git://github.com/honza/snipmate-snippets.git
 [submodule "bundle/vim-nerdtree"]
 	path = bundle/vim-nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
@@ -58,6 +55,6 @@
 [submodule "bundle/vim-vimwiki"]
 	path = bundle/vim-vimwiki
 	url = git://github.com/vim-scripts/vimwiki.git
-[submodule "bundle/YouCompleteMe"]
-	path = bundle/YouCompleteMe
-	url = git://github.com/Valloric/YouCompleteMe.git
+[submodule "bundle/vim-snippets"]
+	path = bundle/vim-snippets
+	url = git://github.com/honza/vim-snippets.git
